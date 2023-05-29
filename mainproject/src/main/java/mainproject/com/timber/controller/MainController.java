@@ -5,13 +5,12 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-@RequestMapping("mainproject/*")
 public class MainController {
 
-	@GetMapping("home")
+	@GetMapping("main.do")
 	public String mainApi() {
 		System.out.println("µé¾î¿È");
-		return "index.jsp";
+		return "main.jsp";
 	}
 	
 }

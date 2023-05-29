@@ -7,10 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1>hello</h1>
-	<form action="main.do" method="get">
-	<button type="submit">Test</button>	
-	</form>
+	<h1>main.jsp</h1>
 </body>
 
-</html> 
+</html>  
