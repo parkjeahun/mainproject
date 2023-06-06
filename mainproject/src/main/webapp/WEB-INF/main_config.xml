@@ -10,7 +10,7 @@
 		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
 		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd
 		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd">
-<aop:aspectj-autoproxy/>
+<aop:aspectj-autoproxy/> 
 <context:component-scan base-package="mainproject.com.timber"/>
 <mvc:annotation-driven/>
 <mvc:resources location="/resources/" mapping="/resources/**"/>

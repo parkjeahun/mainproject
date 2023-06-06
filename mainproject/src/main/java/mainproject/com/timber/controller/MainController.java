@@ -7,10 +7,16 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class MainController {
 
-	@GetMapping("main")
+	@RequestMapping("index")
+	public String indexApi() {
+		System.out.println("µé¾î¿È:index");
+		return "webapp/WEB-INF/views/index.jsp";
+	}
+	
+	@RequestMapping("main")
 	public String mainApi() {
-		System.out.println("µé¾î¿È");
-		return "main.jsp";
+		System.out.println("µé¾î¿È:main");
+		return "redirect:/main";
 	}
 	
 }
