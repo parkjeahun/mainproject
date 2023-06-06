@@ -8,7 +8,7 @@
 </head>
 <body>
 	<h1>hello</h1>
-	<form action="main.do" method="get">
+	<form action="main" method="get">
 	<button type="submit">Test</button>	
 	</form>
 </body>
