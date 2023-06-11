@@ -32,6 +32,31 @@
 		<version>1.2.5</version>
 	</dependency>
 	<dependency>
+  		<groupId>org.springframework</groupId>
+  		<artifactId>spring-asm</artifactId>
+  		<version>3.0.5.RELEASE</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.springframework</groupId>
+  		<artifactId>spring-aspects</artifactId>
+  		<version>4.3.26.RELEASE</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.springframework</groupId>
+  		<artifactId>spring-beans</artifactId>
+  		<version>4.3.26.RELEASE</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.springframework</groupId>
+  		<artifactId>spring-core</artifactId>
+  		<version>4.3.26.RELEASE</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.springframework</groupId>
+  		<artifactId>spring-expression</artifactId>
+  		<version>4.3.26.RELEASE</version>
+  	</dependency>
+	<dependency>
 		<groupId>org.springframework</groupId>
 		<artifactId>spring-jdbc</artifactId>
 		<version>4.3.26.RELEASE</version>
@@ -100,6 +125,7 @@
 		<artifactId>aspectjweaver</artifactId>
 		<version>1.9.6</version>
 	</dependency>
+	
 </dependencies>
 <build>
  <plugins>

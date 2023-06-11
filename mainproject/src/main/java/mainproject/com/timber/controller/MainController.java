@@ -3,14 +3,16 @@ package mainproject.com.timber.controller;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 public class MainController {
 
-	@RequestMapping("index")
+	@GetMapping("/index")
 	public String indexApi() {
+		//ModelAndView mav = new ModelAndView("default/index");
 		System.out.println("µé¾î¿È:index");
-		return "webapp/WEB-INF/views/index.jsp";
+		return "defualt/index";
 	}
 	
 	@RequestMapping("main")
